@@ -1,15 +1,16 @@
 {
-  "name": "calisthenitics",
-  "private": true,
+  "name": "calisthenics-skill-tree",
   "version": "0.0.0",
-  "type": "module",
-  "scripts": {
+  "private": true,
+  "homepage": "https://majdmajd.github.io/c",
+ "scripts": {
   "dev": "vite",
   "build": "vite build",
   "preview": "vite preview",
-  "deploy": "gh-pages -d dist"
-}
-,
+  "deploy": "gh-pages -d dist -r https://github.com/majdmajd/c.git"
+},
+
+
   "dependencies": {
     "dagre": "^0.8.5",
     "react": "^19.0.0",
